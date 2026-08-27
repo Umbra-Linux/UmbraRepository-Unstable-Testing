@@ -1,0 +1,476 @@
+{
+  "Lz4": {
+    "latest": "1.10.0",
+    "versions": {
+      "1.10.0": "Lz4/Lz4-1.10.0.tar.gz"
+    }
+  },
+  "Python": {
+    "latest": "3.14.3",
+    "versions": {
+      "3.14.3": "Python/Python-3.14.3.tar.gz"
+    }
+  },
+  "acl": {
+    "latest": "2.3.2",
+    "versions": {
+      "2.3.2": "acl/acl-2.3.2.tar.gz"
+    }
+  },
+  "attr": {
+    "latest": "2.5.2",
+    "versions": {
+      "2.5.2": "attr/attr-2.5.2.tar.gz"
+    }
+  },
+  "autoconf": {
+    "latest": "2.72",
+    "versions": {
+      "2.72": "autoconf/autoconf-2.72.tar.gz"
+    }
+  },
+  "automake": {
+    "latest": "1.18.1",
+    "versions": {
+      "1.18.1": "automake/automake-1.18.1.tar.gz"
+    }
+  },
+  "bash": {
+    "latest": "5.3",
+    "versions": {
+      "5.3": "bash/bash-5.3.tar.gz"
+    }
+  },
+  "bc": {
+    "latest": "7.0.3",
+    "versions": {
+      "7.0.3": "bc/bc-7.0.3.tar.gz"
+    }
+  },
+  "binutils": {
+    "latest": "2.46.0",
+    "versions": {
+      "2.46.0": "binutils/binutils-2.46.0.tar.gz"
+    }
+  },
+  "bzip2": {
+    "latest": "1.0.8",
+    "versions": {
+      "1.0.8": "bzip2/bzip2-1.0.8.tar.gz"
+    }
+  },
+  "coreutils": {
+    "latest": "9.10",
+    "versions": {
+      "9.10": "coreutils/coreutils-9.10.tar.gz"
+    }
+  },
+  "dbus": {
+    "latest": "1.16.2",
+    "versions": {
+      "1.16.2": "dbus/dbus-1.16.2.tar.gz"
+    }
+  },
+  "dejagnu": {
+    "latest": "1.6.3",
+    "versions": {
+      "1.6.3": "dejagnu/dejagnu-1.6.3.tar.gz"
+    }
+  },
+  "diffutils": {
+    "latest": "3.12",
+    "versions": {
+      "3.12": "diffutils/diffutils-3.12.tar.gz"
+    }
+  },
+  "e2fsprogs": {
+    "latest": "1.47.3",
+    "versions": {
+      "1.47.3": "e2fsprogs/e2fsprogs-1.47.3.tar.gz"
+    }
+  },
+  "expat": {
+    "latest": "2.7.4",
+    "versions": {
+      "2.7.4": "expat/expat-2.7.4.tar.gz"
+    }
+  },
+  "expect": {
+    "latest": "5.45.4",
+    "versions": {
+      "5.45.4": "expect/expect-5.45.4.tar.gz"
+    }
+  },
+  "file": {
+    "latest": "5.46",
+    "versions": {
+      "5.46": "file/file-5.46.tar.gz"
+    }
+  },
+  "findutils": {
+    "latest": "4.10.0",
+    "versions": {
+      "4.10.0": "findutils/findutils-4.10.0.tar.gz"
+    }
+  },
+  "flex": {
+    "latest": "2.6.4",
+    "versions": {
+      "2.6.4": "flex/flex-2.6.4.tar.gz"
+    }
+  },
+  "flit-core": {
+    "latest": "3.12.0",
+    "versions": {
+      "3.12.0": "flit-core/flit-core-3.12.0.tar.gz"
+    }
+  },
+  "gawk": {
+    "latest": "5.3.2",
+    "versions": {
+      "5.3.2": "gawk/gawk-5.3.2.tar.gz"
+    }
+  },
+  "gdbm": {
+    "latest": "1.26",
+    "versions": {
+      "1.26": "gdbm/gdbm-1.26.tar.gz"
+    }
+  },
+  "gettext": {
+    "latest": "1.0",
+    "versions": {
+      "1.0": "gettext/gettext-1.0.tar.gz"
+    }
+  },
+  "glibc": {
+    "latest": "2.43",
+    "versions": {
+      "2.43": "glibc/glibc-2.43.tar.gz"
+    }
+  },
+  "gmp": {
+    "latest": "6.3.0",
+    "versions": {
+      "6.3.0": "gmp/gmp-6.3.0.tar.gz"
+    }
+  },
+  "gperf": {
+    "latest": "3.3",
+    "versions": {
+      "3.3": "gperf/gperf-3.3.tar.gz"
+    }
+  },
+  "grep": {
+    "latest": "3.12",
+    "versions": {
+      "3.12": "grep/grep-3.12.tar.gz"
+    }
+  },
+  "groff": {
+    "latest": "1.23.0",
+    "versions": {
+      "1.23.0": "groff/groff-1.23.0.tar.gz"
+    }
+  },
+  "grub": {
+    "latest": "2.14",
+    "versions": {
+      "2.14": "grub/grub-2.14.tar.gz"
+    }
+  },
+  "gzip": {
+    "latest": "1.14",
+    "versions": {
+      "1.14": "gzip/gzip-1.14.tar.gz"
+    }
+  },
+  "iana-etc": {
+    "latest": "20260202",
+    "versions": {
+      "20260202": "iana-etc/iana-etc-20260202.tar.gz"
+    }
+  },
+  "inetutils": {
+    "latest": "2.7",
+    "versions": {
+      "2.7": "inetutils/inetutils-2.7.tar.gz"
+    }
+  },
+  "iproute2": {
+    "latest": "6.18.0",
+    "versions": {
+      "6.18.0": "iproute2/iproute2-6.18.0.tar.gz"
+    }
+  },
+  "jinja2": {
+    "latest": "3.1.6",
+    "versions": {
+      "3.1.6": "jinja2/jinja2-3.1.6.tar.gz"
+    }
+  },
+  "kbd": {
+    "latest": "2.9.0",
+    "versions": {
+      "2.9.0": "kbd/kbd-2.9.0.tar.gz"
+    }
+  },
+  "kmod": {
+    "latest": "34.2",
+    "versions": {
+      "34.2": "kmod/kmod-34.2.tar.gz"
+    }
+  },
+  "less": {
+    "latest": "692",
+    "versions": {
+      "692": "less/less-692.tar.gz"
+    }
+  },
+  "libcap": {
+    "latest": "2.77",
+    "versions": {
+      "2.77": "libcap/libcap-2.77.tar.gz"
+    }
+  },
+  "libelf": {
+    "latest": "0.194",
+    "versions": {
+      "0.194": "libelf/libelf-0.194.tar.gz"
+    }
+  },
+  "libffi": {
+    "latest": "3.5.2",
+    "versions": {
+      "3.5.2": "libffi/libffi-3.5.2.tar.gz"
+    }
+  },
+  "libpipeline": {
+    "latest": "1.5.8",
+    "versions": {
+      "1.5.8": "libpipeline/libpipeline-1.5.8.tar.gz"
+    }
+  },
+  "libtool": {
+    "latest": "2.5.4",
+    "versions": {
+      "2.5.4": "libtool/libtool-2.5.4.tar.gz"
+    }
+  },
+  "libxcrypt": {
+    "latest": "4.5.2",
+    "versions": {
+      "4.5.2": "libxcrypt/libxcrypt-4.5.2.tar.gz"
+    }
+  },
+  "m4": {
+    "latest": "1.4.21",
+    "versions": {
+      "1.4.21": "m4/m4-1.4.21.tar.gz"
+    }
+  },
+  "make": {
+    "latest": "4.4.1",
+    "versions": {
+      "4.4.1": "make/make-4.4.1.tar.gz"
+    }
+  },
+  "man-db": {
+    "latest": "2.13.1",
+    "versions": {
+      "2.13.1": "man-db/man-db-2.13.1.tar.gz"
+    }
+  },
+  "man-pages": {
+    "latest": "6.17",
+    "versions": {
+      "6.17": "man-pages/man-pages-6.17.tar.gz"
+    }
+  },
+  "markupsafe": {
+    "latest": "3.0.3",
+    "versions": {
+      "3.0.3": "markupsafe/markupsafe-3.0.3.tar.gz"
+    }
+  },
+  "meson": {
+    "latest": "1.10.1",
+    "versions": {
+      "1.10.1": "meson/meson-1.10.1.tar.gz"
+    }
+  },
+  "mpc": {
+    "latest": "1.3.1",
+    "versions": {
+      "1.3.1": "mpc/mpc-1.3.1.tar.gz"
+    }
+  },
+  "mpdecimal": {
+    "latest": "4.0.1",
+    "versions": {
+      "4.0.1": "mpdecimal/mpdecimal-4.0.1.tar.gz"
+    }
+  },
+  "mpfr": {
+    "latest": "4.2.2",
+    "versions": {
+      "4.2.2": "mpfr/mpfr-4.2.2.tar.gz"
+    }
+  },
+  "ncurses": {
+    "latest": "6.6",
+    "versions": {
+      "6.6": "ncurses/ncurses-6.6.tar.gz"
+    }
+  },
+  "ninja": {
+    "latest": "1.13.2",
+    "versions": {
+      "1.13.2": "ninja/ninja-1.13.2.tar.gz"
+    }
+  },
+  "openssl": {
+    "latest": "3.6.1",
+    "versions": {
+      "3.6.1": "openssl/openssl-3.6.1.tar.gz"
+    }
+  },
+  "packaging": {
+    "latest": "26.0",
+    "versions": {
+      "26.0": "packaging/packaging-26.0.tar.gz"
+    }
+  },
+  "patch": {
+    "latest": "2.8",
+    "versions": {
+      "2.8": "patch/patch-2.8.tar.gz"
+    }
+  },
+  "pcre2": {
+    "latest": "10.47",
+    "versions": {
+      "10.47": "pcre2/pcre2-10.47.tar.gz"
+    }
+  },
+  "perl": {
+    "latest": "5.42.0",
+    "versions": {
+      "5.42.0": "perl/perl-5.42.0.tar.gz"
+    }
+  },
+  "pkgconf": {
+    "latest": "2.5.1",
+    "versions": {
+      "2.5.1": "pkgconf/pkgconf-2.5.1.tar.gz"
+    }
+  },
+  "procps-ng": {
+    "latest": "4.0.6",
+    "versions": {
+      "4.0.6": "procps-ng/procps-ng-4.0.6.tar.gz"
+    }
+  },
+  "psmisc": {
+    "latest": "23.7",
+    "versions": {
+      "23.7": "psmisc/psmisc-23.7.tar.gz"
+    }
+  },
+  "readline": {
+    "latest": "8.3",
+    "versions": {
+      "8.3": "readline/readline-8.3.tar.gz"
+    }
+  },
+  "sed": {
+    "latest": "4.9",
+    "versions": {
+      "4.9": "sed/sed-4.9.tar.gz"
+    }
+  },
+  "setuptools": {
+    "latest": "82.0.0",
+    "versions": {
+      "82.0.0": "setuptools/setuptools-82.0.0.tar.gz"
+    }
+  },
+  "shadow": {
+    "latest": "4.19.3",
+    "versions": {
+      "4.19.3": "shadow/shadow-4.19.3.tar.gz"
+    }
+  },
+  "sqlite": {
+    "latest": "3510200",
+    "versions": {
+      "3510200": "sqlite/sqlite-3510200.tar.gz"
+    }
+  },
+  "systemd": {
+    "latest": "259.1",
+    "versions": {
+      "259.1": "systemd/systemd-259.1.tar.gz"
+    }
+  },
+  "tar": {
+    "latest": "1.35",
+    "versions": {
+      "1.35": "tar/tar-1.35.tar.gz"
+    }
+  },
+  "tcl": {
+    "latest": "8.6.17",
+    "versions": {
+      "8.6.17": "tcl/tcl-8.6.17.tar.gz"
+    }
+  },
+  "texinfo": {
+    "latest": "7.2",
+    "versions": {
+      "7.2": "texinfo/texinfo-7.2.tar.gz"
+    }
+  },
+  "tzdata": {
+    "latest": "2025c",
+    "versions": {
+      "2025c": "tzdata/tzdata-2025c.tar.gz"
+    }
+  },
+  "util-linux": {
+    "latest": "2.41.3",
+    "versions": {
+      "2.41.3": "util-linux/util-linux-2.41.3.tar.gz"
+    }
+  },
+  "vim": {
+    "latest": "9.2.0078",
+    "versions": {
+      "9.2.0078": "vim/vim-9.2.0078.tar.gz"
+    }
+  },
+  "wheel": {
+    "latest": "0.46.3",
+    "versions": {
+      "0.46.3": "wheel/wheel-0.46.3.tar.gz"
+    }
+  },
+  "xz": {
+    "latest": "5.8.2",
+    "versions": {
+      "5.8.2": "xz/xz-5.8.2.tar.gz"
+    }
+  },
+  "zlib": {
+    "latest": "1.3.2",
+    "versions": {
+      "1.3.2": "zlib/zlib-1.3.2.tar.gz"
+    }
+  },
+  "zstd": {
+    "latest": "1.5.7",
+    "versions": {
+      "1.5.7": "zstd/zstd-1.5.7.tar.gz"
+    }
+  }
+}
