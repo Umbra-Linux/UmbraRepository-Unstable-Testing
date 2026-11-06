@@ -29,6 +29,12 @@
       "2.3.2": "acl/acl-2.3.2.tar.gz"
     }
   },
+  "at-spi2-core": {
+    "latest": "2.58.3",
+    "versions": {
+      "2.58.3": "at-spi2-core/at-spi2-core-2.58.3.tar.gz"
+    }
+  },
   "attr": {
     "latest": "2.5.2",
     "versions": {
@@ -68,7 +74,7 @@
   "bison": {
     "latest": "3.8.2",
     "versions": {
-      "3.8.3": "bison/bison3.8.2.tar.gz"
+      "3.8.2": "bison/bison3.8.2.tar.gz"
     }
   },
   "bzip2": {
@@ -255,7 +261,7 @@
     "latest": "2.0.1",
     "versions": {
       "2.0.1": "gpgme/gpgme-2.0.1.tar.gz",
-      "2.0.0": "gpgme/gpgmepp-2.0.0.tar.gz"
+      "unknown": "gpgme/gpgmepp-2.0.0.tar.gz"
     }
   },
   "graphite": {
@@ -783,14 +789,19 @@
   "xcb-util": {
     "latest": "0.4.1",
     "versions": {
-      "0.4.1": "xcb-util/xcb-util-0.4.1.tar.gz",
-      "unknown": "xcb-util/xcb-utils.tar.gz"
+      "0.4.1": "xcb-util/xcb-util-0.4.1.tar.gz"
     }
   },
-  "xorg": {
-    "latest": "21.1.21",
+  "xcb-utils": {
+    "latest": "1.0.0",
     "versions": {
-      "21.1.21": "xorg/xorg.tar.gz"
+      "1.0.0": "xcb-utils/xcb-utils.tar.gz"
+    }
+  },
+  "xorg-env": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": "xorg-env/xorg-env.tar.gz"
     }
   },
   "xz": {

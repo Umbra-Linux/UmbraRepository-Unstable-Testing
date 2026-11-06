@@ -3,12 +3,15 @@ import hashlib
 import json
 
 index_data = {}
+root_dir = '..'  # Główny folder repozytorium jeden poziom wyżej
 
-# Przeglądamy wszystkie katalogi w bieżącym folderze
-for entry in sorted(os.listdir('.')):
-    if os.path.isdir(entry) and not entry.startswith('.'):
+# Przeglądamy wszystkie katalogi w głównym folderze repozytorium
+for entry in sorted(os.listdir(root_dir)):
+    full_entry_path = os.path.join(root_dir, entry)
+    
+    if os.path.isdir(full_entry_path) and not entry.startswith('.'):
         pkg_name = entry
-        pkg_dir = entry
+        pkg_dir = full_entry_path
         
         # Szukamy pliku .tar.gz wewnątrz folderu paczki
         tar_files = [f for f in os.listdir(pkg_dir) if f.endswith('.tar.gz')]
@@ -30,7 +33,7 @@ for entry in sorted(os.listdir('.')):
             
             print(f"[SHA256] Utworzono dla: {tar_file}")
             
-            # Wyciągamy wersję z nazwy pliku (np. pakiet-1.2.3.tar.gz -> wersja to 1.2.3)
+            # Wyciągamy wersję z nazwy pliku
             base_name = tar_file[:-7]
             if base_name.startswith(pkg_name + "-"):
                 version = base_name[len(pkg_name) + 1:]
@@ -44,12 +47,13 @@ for entry in sorted(os.listdir('.')):
                     "versions": {}
                 }
             
-            # Aktualizujemy wersję
+            # Aktualizujemy wersję (ścieżka względna w index.json to np. "Python/Python-3.14.3.tar.gz")
             index_data[pkg_name]["versions"][version] = f"{pkg_name}/{tar_file}"
             index_data[pkg_name]["latest"] = version
 
-# 2. Zapisujemy zaktualizowany index.json
-with open("index.json", "w") as jf:
+# 2. Zapisujemy zaktualizowany index.json w głównym katalogu repozytorium
+index_json_path = os.path.join(root_dir, "index.json")
+with open(index_json_path, "w") as jf:
     json.dump(index_data, jf, indent=2)
 
 print("\n[SUKCES] Zaktualizowano index.json oraz pliki .sha256 dla wszystkich paczek!")
