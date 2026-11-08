@@ -2,7 +2,7 @@
   "LVM2": {
     "latest": "2.03.38",
     "versions": {
-      "2.03.38": "LVM2/LVM2.2.03.38.tar.gz"
+      "2.03.38": "LVM2/LVM2-2.03.38.tar.gz"
     }
   },
   "Linux-PAM": {
@@ -74,7 +74,13 @@
   "bison": {
     "latest": "3.8.2",
     "versions": {
-      "3.8.2": "bison/bison3.8.2.tar.gz"
+      "3.8.2": "bison/bison-3.8.2.tar.gz"
+    }
+  },
+  "bubblewrap": {
+    "latest": "0.11.0",
+    "versions": {
+      "0.11.0": "bubblewrap/bubblewrap-0.11.0.tar.gz"
     }
   },
   "bzip2": {
@@ -261,7 +267,7 @@
     "latest": "2.0.1",
     "versions": {
       "2.0.1": "gpgme/gpgme-2.0.1.tar.gz",
-      "unknown": "gpgme/gpgmepp-2.0.0.tar.gz"
+      "2.0.0": "gpgme/gpgmepp-2.0.0.tar.gz"
     }
   },
   "graphite": {
@@ -358,6 +364,12 @@
     "latest": "1.22.2",
     "versions": {
       "1.22.2": "krb5/krb5-1.22.2.tar.gz"
+    }
+  },
+  "lcms": {
+    "latest": "2.2.18",
+    "versions": {
+      "2.2.18": "lcms/lcms-2.2.18.tar.gz"
     }
   },
   "less": {
@@ -460,6 +472,12 @@
     "latest": "1.4.5",
     "versions": {
       "1.4.5": "libpwquality/libpwquality-1.4.5.tar.gz"
+    }
+  },
+  "libseccomp": {
+    "latest": "2.6.0",
+    "versions": {
+      "2.6.0": "libseccomp/libseccomp-2.6.0.tar.gz"
     }
   },
   "libtasn": {
@@ -712,6 +730,12 @@
     "latest": "4.19.3",
     "versions": {
       "4.19.3": "shadow/shadow-4.19.3.tar.gz"
+    }
+  },
+  "shared-mime-info": {
+    "latest": "2.4",
+    "versions": {
+      "2.4": "shared-mime-info/shared-mime-info-2.4.tar.gz"
     }
   },
   "sqlite": {
