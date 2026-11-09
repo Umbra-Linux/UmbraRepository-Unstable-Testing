@@ -831,7 +831,13 @@
   "xorg-env": {
     "latest": "1.0.0",
     "versions": {
-      "1.0.0": "xorg-env/xorg-env.tar.gz"
+      "1.0.0": "xorg/xorg-env.tar.gz"
+    }
+  },
+  "xorg-libs": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": "xorg/xorglibs.tar.gz"
     }
   },
   "xz": {
