@@ -267,7 +267,7 @@
     "latest": "2.0.1",
     "versions": {
       "2.0.1": "gpgme/gpgme-2.0.1.tar.gz",
-      "2.0.1": "gpgme/gpgmepp-2.0.0.tar.gz"
+      "2.0.0": "gpgme/gpgmepp-2.0.0.tar.gz"
     }
   },
   "graphite2": {
@@ -720,6 +720,12 @@
       "8.3": "readline/readline-8.3.tar.gz"
     }
   },
+  "rustc": {
+    "latest": "1.93.1",
+    "versions": {
+      "1.93.1": "rustc/rustc-1.93.1.tar.gz"
+    }
+  },
   "sed": {
     "latest": "4.9",
     "versions": {
@@ -828,18 +834,19 @@
       "1.0.0": "xcb-utils/xcb-utils.tar.gz"
     }
   },
+  "xorg-libs": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": "xorg/xorg-libs.tar.gz"
+    }
+  },
   "xorg-env": {
     "latest": "1.0.0",
     "versions": {
       "1.0.0": "xorg/xorg-env.tar.gz"
     }
   },
-  "xorg-libs": {
-    "latest": "1.0.0",
-    "versions": {
-      "1.0.0": "xorg/xorglibs.tar.gz"
-    }
-  },
+	
   "xz": {
     "latest": "5.8.2",
     "versions": {
