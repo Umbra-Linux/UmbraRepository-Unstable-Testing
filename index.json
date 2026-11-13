@@ -858,11 +858,17 @@
       "1.0.0": "xcb-utils/xcb-utils.tar.gz"
     }
   },
-  "xorg": {
+  "xorg-libs": {
     "latest": "1.0.0",
     "versions": {
-      "libs": "xorg/xorg-libs.tar.gz",
-      "env": "xorg/xorg-env.tar.gz"
+      "1.0.0": "xorg/xorg-libs.tar.gz"
+
+    }
+  },
+  "xorg-env": {
+    "latest": "1.0.0",
+    "versions": {
+      "1.0.0": "xorg/xorg-env.tar.gz"
     }
   },
   "xz": {
